@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'correlation_x_y'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.summary     = 'correlation analysis between variables x and y'
   s.description = 'Correlation object creation needs 2 arguments: data series x and y as arrays'
   s.authors     = ['Raphael Aubry']
