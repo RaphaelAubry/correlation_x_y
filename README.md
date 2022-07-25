@@ -15,13 +15,21 @@ Example:
  As a result, you get a correlation object to access parameters and the equation definition
  
  correlation.dependance
+ 
  correlation.equation.definition
+ 
  correlation.parameters.a
+ 
  correlation.parameters.b
+ 
  correlation.parameters.coefficient
+ 
  correlation.serie_a.data
+ 
  correlation.serie_a.size
+ 
  correlation.serie_b.data
+ 
  correlation.serie_b.size
  
  Then given x you can forecast y
