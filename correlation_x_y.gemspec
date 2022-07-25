@@ -6,7 +6,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Raphael Aubry']
   s.date        = '2022-07-22'
   s.email       = 'raphael.aubry@hotmail.fr'
-  s.files       = ['lib/correlation_x_y.rb', 'lib/check.rb', 'lib/equation.rb', 'lib/parameters.rb', 'lib/serie.rb', 'test_correlation_x_y.rb',  'rakefile.rb' ]
+  s.files       = ['lib/correlation_x_y.rb', 'lib/check.rb', 'lib/equation.rb',
+                   'lib/parameters.rb', 'lib/serie.rb', 'test/test_correlation_x_y.rb', 'rakefile.rb']
   s.homepage    = 'https://rubygems.org/gems/correlation_x_y'
   s.license     = 'Nonstandard'
 end
