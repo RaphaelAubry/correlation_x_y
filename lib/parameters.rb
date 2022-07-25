@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require_relative 'correlation_x_y'
 require_relative 'serie'
 
 # object Coefficient
@@ -8,9 +7,9 @@ class Parameters
   attr_accessor :coefficient, :a, :b
 
   def initialize(serie_a, serie_b)
-    @coefficient = calculate_coefficient(serie_a, serie_b)
     @a = calculate_a(serie_a, serie_b)
     @b = calculate_b(serie_a, serie_b)
+    @coefficient = calculate_coefficient(serie_a, serie_b)
   end
 
   # calculation of the slope between the 2 series

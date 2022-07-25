@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'correlation_x_y'
+require_relative 'parameters'
 
 # object linear Equation to get a and b
 class Equation
