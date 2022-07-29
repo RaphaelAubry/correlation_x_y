@@ -7,9 +7,10 @@ class Equation
   attr_accessor :definition
 
   def initialize(parameters)
-    if (-1...-0.8).include?(parameters.coefficient)
+    case parameters.coefficient
+    when -1...-0.8
       @definition = "y = #{parameters.a}x + #{parameters.b}"
-    elsif (0.8...1).include?(parameters.coefficient)
+    when 0.8...1
       @definition = "y = -#{parameters.a}x + #{parameters.b}"
     end
   end
